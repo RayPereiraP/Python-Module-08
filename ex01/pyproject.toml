@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "matrix-loading"
+version = "0.1.0"
+description = "Exercise 1: Loading Programs for Matrix Data Engineering"
+authors = ["Neo <neo@matrix.local>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+numpy = "^1.25.0"
+matplotlib = "^3.7.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
